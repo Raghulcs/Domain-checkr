@@ -11,9 +11,7 @@ from threading import Thread
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-"""
-VER 1.1.1
-"""
+
 
 version = "1.1.1"
 
