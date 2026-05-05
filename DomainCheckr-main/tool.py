@@ -29,16 +29,7 @@ CHANGE LOG
 - Added a text when a report is generated at the end of cli output.
 """
 
-print(r"""                                          
- ____                        _        ____ _               _         
-|  _ \  ___  _ __ ___   __ _(_)_ __  / ___| |__   ___  ___| | ___ __ 
-| | | |/ _ \| '_ ` _ \ / _` | | '_ \| |   | '_ \ / _ \/ __| |/ / '__|
-| |_| | (_) | | | | | | (_| | | | | | |___| | | |  __/ (__|   <| |   
-|____/ \___/|_| |_| |_|\__,_|_|_| |_|\____|_| |_|\___|\___|_|\_\_|  
-                                        
-                                                    Version 1.0                                    
-                                               
-""")
+
 
 argParser = argparse.ArgumentParser(prog='DomainCheckr.py',
                     description='Analyze IP Addresses and domains using Virus Total and Abuse IPDB APIs.',
